@@ -1,0 +1,142 @@
+/* Shared by every page.
+   One file rather than inline styles per page: the browser fetches it once and reuses
+   it across the site, and page weight is itself a ranking signal. */
+
+:root {
+  --ink: #10161c;
+  --ink-soft: #1b242d;
+  --paper: #f7f5f0;
+  --line: #ddd8cc;
+  --teal: #0e7566;
+  --teal-bright: #4dd8c0;
+  --muted: #5d6b73;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.65 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 1040px; margin: 0 auto; padding-inline: 20px; }
+.wrap.narrow { max-width: 720px; }
+
+h1, h2, h3 { line-height: 1.18; text-wrap: balance; letter-spacing: -0.015em; }
+h1 { font-size: clamp(1.9rem, 4.8vw, 2.9rem); margin: 0 0 16px; }
+h2 { font-size: clamp(1.35rem, 3vw, 1.85rem); margin: 44px 0 14px; }
+h3 { font-size: 1.12rem; margin: 30px 0 6px; }
+p { margin: 0 0 16px; }
+a { color: var(--teal); }
+ul, ol { padding-left: 24px; margin: 0 0 16px; }
+li { margin-bottom: 7px; }
+
+/* ------------------------------------------------------------------ site bar */
+.sitebar { background: var(--ink); padding-block: 15px; }
+.sitebar .wrap { display: flex; align-items: center; gap: 11px; }
+.sitebar img { width: 34px; height: 34px; border-radius: 9px; }
+.sitebar a { color: var(--paper); text-decoration: none; font-weight: 700; font-size: .98rem; }
+
+/* --------------------------------------------------------------------- hero */
+header.hero { background: var(--ink); color: var(--paper); padding-block: 52px 60px; }
+header.hero .wrap { display: grid; gap: 44px; grid-template-columns: 1.15fr 0.85fr; align-items: center; }
+header.hero p { color: #b7c2ca; font-size: 1.12rem; max-width: 46ch; }
+.brand { display: flex; align-items: center; gap: 13px; margin-bottom: 28px; }
+.brand img { width: 50px; height: 50px; border-radius: 12px; }
+.brand span { font-weight: 700; font-size: 1.02rem; }
+.hero-shot {
+  width: 100%; max-width: 330px; border-radius: 20px; display: block;
+  margin-inline: auto; box-shadow: 0 24px 60px rgba(0,0,0,.45);
+}
+
+.cta {
+  display: inline-block; background: var(--teal-bright); color: var(--ink);
+  font-weight: 700; text-decoration: none; padding: 15px 30px; border-radius: 999px;
+  margin-top: 10px;
+}
+.cta:hover { background: #6fe6d2; }
+.cta-note { display: block; margin-top: 11px; font-size: .9rem; color: #8d9aa3; }
+
+/* ----------------------------------------------------------------- sections */
+section { padding-block: 60px; }
+section + section { border-top: 1px solid var(--line); }
+.lede { font-size: 1.12rem; color: var(--muted); max-width: 62ch; }
+
+.steps { display: grid; gap: 26px; grid-template-columns: repeat(3, 1fr); margin-top: 32px; }
+.step { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
+.step .n {
+  width: 30px; height: 30px; border-radius: 50%; background: var(--teal); color: #fff;
+  display: grid; place-items: center; font-weight: 700; font-size: .92rem; margin-bottom: 13px;
+}
+.step h3 { margin-top: 0; }
+.step p { margin: 0; color: var(--muted); font-size: .97rem; }
+
+.shots { display: grid; gap: 22px; grid-template-columns: repeat(3, 1fr); margin-top: 32px; }
+.shots img { width: 100%; border-radius: 14px; border: 1px solid var(--line); display: block; }
+.shots figcaption { margin-top: 10px; font-size: .92rem; color: var(--muted); }
+figure { margin: 0; }
+
+.templates { display: grid; gap: 18px; grid-template-columns: repeat(4, 1fr); margin-top: 28px; }
+.templates img {
+  width: 100%; background: #fff; border: 1px solid var(--line);
+  border-radius: 12px; display: block; padding: 10px;
+}
+
+.features { display: grid; gap: 22px 36px; grid-template-columns: repeat(2, 1fr); margin-top: 28px; }
+.features h3 { margin-top: 0; margin-bottom: 4px; }
+.features p { color: var(--muted); font-size: .97rem; margin: 0; }
+
+/* ---------------------------------------------------------------------- faq */
+.faq { max-width: 70ch; }
+.faq details { border-bottom: 1px solid var(--line); padding-block: 17px; }
+.faq summary {
+  cursor: pointer; font-weight: 600; font-size: 1.04rem; list-style: none;
+  display: flex; justify-content: space-between; gap: 16px; align-items: baseline;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; color: var(--teal); font-weight: 700; }
+.faq details[open] summary::after { content: "\2013"; }
+.faq p { margin: 12px 0 0; color: var(--muted); }
+
+/* ----------------------------------------------------------------- articles */
+article { padding-block: 48px 64px; }
+article .meta { color: var(--muted); font-size: .93rem; margin: -6px 0 28px; }
+article h2 { margin-top: 40px; }
+article img { max-width: 100%; border-radius: 12px; border: 1px solid var(--line); }
+
+.callout {
+  background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--teal);
+  border-radius: 10px; padding: 20px 22px; margin: 32px 0;
+}
+.callout p:last-child { margin-bottom: 0; }
+.callout strong { display: block; margin-bottom: 4px; }
+
+.compare { width: 100%; border-collapse: collapse; margin: 26px 0; font-size: .97rem; }
+.compare th, .compare td { text-align: left; padding: 11px 13px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.compare th { background: #fff; font-weight: 700; }
+.table-scroll { overflow-x: auto; }
+
+.more { margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--line); }
+.more h2 { margin-top: 0; font-size: 1.15rem; }
+.more ul { list-style: none; padding: 0; }
+.more li { margin-bottom: 9px; }
+
+/* ----------------------------------------------------------------- closing */
+.closing { background: var(--ink-soft); color: var(--paper); text-align: center; }
+.closing h2 { margin-top: 0; }
+.closing p { color: #b7c2ca; max-width: 50ch; margin-inline: auto; }
+
+footer { background: var(--ink); color: #8d9aa3; padding-block: 30px; font-size: .9rem; }
+footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+footer a { color: #b7c2ca; }
+
+@media (max-width: 860px) {
+  header.hero .wrap { grid-template-columns: 1fr; }
+  .steps, .shots, .features { grid-template-columns: 1fr; }
+  .templates { grid-template-columns: repeat(2, 1fr); }
+  section { padding-block: 46px; }
+}

@@ -30,123 +30,11 @@
 }
 </script>
 
-<style>
-  :root {
-    --ink: #10161c;
-    --ink-soft: #1b242d;
-    --paper: #f7f5f0;
-    --paper-dim: #ebe7de;
-    --teal: #0e7566;
-    --teal-bright: #4dd8c0;
-    --line: #ddd8cc;
-    --muted: #5d6b73;
-    color-scheme: light;
-  }
-
-  * { box-sizing: border-box; }
-
-  body {
-    margin: 0;
-    background: var(--paper);
-    color: var(--ink);
-    font: 17px/1.65 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .wrap { max-width: 1040px; margin: 0 auto; padding-inline: 20px; }
-
-  h1, h2, h3 { line-height: 1.18; text-wrap: balance; letter-spacing: -0.015em; }
-  h1 { font-size: clamp(2rem, 5.2vw, 3.1rem); margin: 0 0 16px; }
-  h2 { font-size: clamp(1.4rem, 3.2vw, 2rem); margin: 0 0 14px; }
-  h3 { font-size: 1.12rem; margin: 0 0 6px; }
-  p { margin: 0 0 16px; }
-  a { color: var(--teal); }
-
-  /* ---------------------------------------------------------------- header */
-  header {
-    background: var(--ink);
-    color: var(--paper);
-    padding-block: 56px 64px;
-  }
-  header .wrap { display: grid; gap: 44px; grid-template-columns: 1.15fr 0.85fr; align-items: center; }
-  header p { color: #b7c2ca; font-size: 1.12rem; max-width: 46ch; }
-  .brand { display: flex; align-items: center; gap: 13px; margin-bottom: 30px; }
-  .brand img { width: 50px; height: 50px; border-radius: 12px; }
-  .brand span { font-weight: 700; font-size: 1.02rem; letter-spacing: 0.01em; }
-  .hero-shot {
-    width: 100%; max-width: 330px; border-radius: 20px; display: block;
-    margin-inline: auto; box-shadow: 0 24px 60px rgba(0,0,0,.45);
-  }
-
-  .cta {
-    display: inline-block; background: var(--teal-bright); color: var(--ink);
-    font-weight: 700; text-decoration: none; padding: 15px 30px;
-    border-radius: 999px; margin-top: 10px;
-  }
-  .cta:hover { background: #6fe6d2; }
-  .cta-note { display: block; margin-top: 11px; font-size: .9rem; color: #8d9aa3; }
-
-  /* ---------------------------------------------------------------- blocks */
-  section { padding-block: 64px; }
-  section + section { border-top: 1px solid var(--line); }
-  .lede { font-size: 1.12rem; color: var(--muted); max-width: 62ch; }
-
-  .steps { display: grid; gap: 26px; grid-template-columns: repeat(3, 1fr); margin-top: 34px; }
-  .step { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
-  .step .n {
-    width: 30px; height: 30px; border-radius: 50%; background: var(--teal); color: #fff;
-    display: grid; place-items: center; font-weight: 700; font-size: .92rem; margin-bottom: 13px;
-  }
-  .step p { margin: 0; color: var(--muted); font-size: .97rem; }
-
-  .shots { display: grid; gap: 22px; grid-template-columns: repeat(3, 1fr); margin-top: 34px; }
-  .shots img { width: 100%; border-radius: 14px; border: 1px solid var(--line); display: block; }
-  .shots figcaption { margin-top: 10px; font-size: .92rem; color: var(--muted); }
-  figure { margin: 0; }
-
-  .templates { display: grid; gap: 18px; grid-template-columns: repeat(4, 1fr); margin-top: 30px; }
-  .templates img {
-    width: 100%; background: #fff; border: 1px solid var(--line);
-    border-radius: 12px; display: block; padding: 10px;
-  }
-
-  .features { display: grid; gap: 22px 36px; grid-template-columns: repeat(2, 1fr); margin-top: 30px; }
-  .features h3 { margin-bottom: 4px; }
-  .features p { color: var(--muted); font-size: .97rem; margin: 0; }
-
-  .faq { max-width: 70ch; }
-  .faq details {
-    border-bottom: 1px solid var(--line); padding-block: 17px;
-  }
-  .faq summary {
-    cursor: pointer; font-weight: 600; font-size: 1.04rem; list-style: none;
-    display: flex; justify-content: space-between; gap: 16px; align-items: baseline;
-  }
-  .faq summary::-webkit-details-marker { display: none; }
-  .faq summary::after { content: "+"; color: var(--teal); font-weight: 700; }
-  .faq details[open] summary::after { content: "–"; }
-  .faq p { margin: 12px 0 0; color: var(--muted); }
-
-  .closing { background: var(--ink-soft); color: var(--paper); text-align: center; }
-  .closing p { color: #b7c2ca; max-width: 50ch; margin-inline: auto; }
-
-  footer {
-    background: var(--ink); color: #8d9aa3; padding-block: 30px; font-size: .9rem;
-  }
-  footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
-  footer a { color: #b7c2ca; }
-
-  @media (max-width: 860px) {
-    header .wrap { grid-template-columns: 1fr; }
-    .steps, .shots, .features { grid-template-columns: 1fr; }
-    .templates { grid-template-columns: repeat(2, 1fr); }
-    section { padding-block: 48px; }
-  }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<header class="hero">
   <div class="wrap">
     <div>
       <div class="brand">
@@ -328,6 +216,47 @@
          characters, logos, a photo you took five minutes ago. Please respect copyright if
          you intend to publish or sell what you draw.</p>
     </details>
+  </div>
+</section>
+
+
+<section>
+  <div class="wrap">
+    <h2>Guides</h2>
+    <p class="lede">Honest answers to the questions people ask before they start
+       tracing.</p>
+    <div class="features">
+      <div>
+        <h3><a href="is-tracing-cheating.html">Is tracing cheating?</a></h3>
+        <p>The oldest argument in drawing, answered properly — what tracing teaches,
+           what it does not, and when it genuinely is a problem.</p>
+      </div>
+      <div>
+        <h3><a href="trace-without-printer.html">How to trace a picture onto paper without a printer</a></h3>
+        <p>Five methods that need no printer at all, including the window trick and the
+           phone method.</p>
+      </div>
+      <div>
+        <h3><a href="how-to-draw-anime-eyes.html">How to draw anime eyes step by step</a></h3>
+        <p>Six stages, in the order that actually works, and the two mistakes nearly
+           everyone makes first.</p>
+      </div>
+      <div>
+        <h3><a href="ways-to-trace-a-drawing.html">5 ways to trace a drawing, compared</a></h3>
+        <p>Light box, window, grid, printer and phone — what each costs, what each is
+           good at, and which to pick.</p>
+      </div>
+      <div>
+        <h3><a href="draw-a-face-proportions.html">How to draw a face using proportions</a></h3>
+        <p>The eight-heads rule and the face grid, explained without the art-school
+           vocabulary.</p>
+      </div>
+      <div>
+        <h3><a href="trace-photo-android.html">The best way to trace a photo onto paper on Android</a></h3>
+        <p>What to look for in a tracing app, and why most of them lose your place the
+           moment your hand moves.</p>
+      </div>
+    </div>
   </div>
 </section>
 
