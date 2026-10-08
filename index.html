@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- The title and description are what Google prints in the results list, so they
+     carry the phrase people actually type rather than the product name alone. -->
+<title>Trace Drawings Onto Real Paper With Your Phone — AR Draw Anime</title>
+<meta name="description" content="Free Android app that holds any photo or anime template on real paper through your camera, so you can trace it by hand. 16 free templates, background removal, works without AR too.">
+<link rel="canonical" href="https://lofil6254-ux.github.io/blayza-privacy/">
+
+<meta property="og:title" content="Trace Drawings Onto Real Paper With Your Phone">
+<meta property="og:description" content="Free Android app that holds any photo on real paper through your camera so you can trace it by hand.">
+<meta property="og:image" content="img/share.png">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="img/icon.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "AR Draw Anime: Trace Sketch",
+  "operatingSystem": "Android 7.0+",
+  "applicationCategory": "DesignApplication",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "Holds any photo or template on real paper through your phone camera so you can trace it by hand.",
+  "url": "https://play.google.com/store/apps/details?id=com.artracing.studio"
+}
+</script>
+
+<style>
+  :root {
+    --ink: #10161c;
+    --ink-soft: #1b242d;
+    --paper: #f7f5f0;
+    --paper-dim: #ebe7de;
+    --teal: #0e7566;
+    --teal-bright: #4dd8c0;
+    --line: #ddd8cc;
+    --muted: #5d6b73;
+    color-scheme: light;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 17px/1.65 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1040px; margin: 0 auto; padding-inline: 20px; }
+
+  h1, h2, h3 { line-height: 1.18; text-wrap: balance; letter-spacing: -0.015em; }
+  h1 { font-size: clamp(2rem, 5.2vw, 3.1rem); margin: 0 0 16px; }
+  h2 { font-size: clamp(1.4rem, 3.2vw, 2rem); margin: 0 0 14px; }
+  h3 { font-size: 1.12rem; margin: 0 0 6px; }
+  p { margin: 0 0 16px; }
+  a { color: var(--teal); }
+
+  /* ---------------------------------------------------------------- header */
+  header {
+    background: var(--ink);
+    color: var(--paper);
+    padding-block: 56px 64px;
+  }
+  header .wrap { display: grid; gap: 44px; grid-template-columns: 1.15fr 0.85fr; align-items: center; }
+  header p { color: #b7c2ca; font-size: 1.12rem; max-width: 46ch; }
+  .brand { display: flex; align-items: center; gap: 13px; margin-bottom: 30px; }
+  .brand img { width: 50px; height: 50px; border-radius: 12px; }
+  .brand span { font-weight: 700; font-size: 1.02rem; letter-spacing: 0.01em; }
+  .hero-shot {
+    width: 100%; max-width: 330px; border-radius: 20px; display: block;
+    margin-inline: auto; box-shadow: 0 24px 60px rgba(0,0,0,.45);
+  }
+
+  .cta {
+    display: inline-block; background: var(--teal-bright); color: var(--ink);
+    font-weight: 700; text-decoration: none; padding: 15px 30px;
+    border-radius: 999px; margin-top: 10px;
+  }
+  .cta:hover { background: #6fe6d2; }
+  .cta-note { display: block; margin-top: 11px; font-size: .9rem; color: #8d9aa3; }
+
+  /* ---------------------------------------------------------------- blocks */
+  section { padding-block: 64px; }
+  section + section { border-top: 1px solid var(--line); }
+  .lede { font-size: 1.12rem; color: var(--muted); max-width: 62ch; }
+
+  .steps { display: grid; gap: 26px; grid-template-columns: repeat(3, 1fr); margin-top: 34px; }
+  .step { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
+  .step .n {
+    width: 30px; height: 30px; border-radius: 50%; background: var(--teal); color: #fff;
+    display: grid; place-items: center; font-weight: 700; font-size: .92rem; margin-bottom: 13px;
+  }
+  .step p { margin: 0; color: var(--muted); font-size: .97rem; }
+
+  .shots { display: grid; gap: 22px; grid-template-columns: repeat(3, 1fr); margin-top: 34px; }
+  .shots img { width: 100%; border-radius: 14px; border: 1px solid var(--line); display: block; }
+  .shots figcaption { margin-top: 10px; font-size: .92rem; color: var(--muted); }
+  figure { margin: 0; }
+
+  .templates { display: grid; gap: 18px; grid-template-columns: repeat(4, 1fr); margin-top: 30px; }
+  .templates img {
+    width: 100%; background: #fff; border: 1px solid var(--line);
+    border-radius: 12px; display: block; padding: 10px;
+  }
+
+  .features { display: grid; gap: 22px 36px; grid-template-columns: repeat(2, 1fr); margin-top: 30px; }
+  .features h3 { margin-bottom: 4px; }
+  .features p { color: var(--muted); font-size: .97rem; margin: 0; }
+
+  .faq { max-width: 70ch; }
+  .faq details {
+    border-bottom: 1px solid var(--line); padding-block: 17px;
+  }
+  .faq summary {
+    cursor: pointer; font-weight: 600; font-size: 1.04rem; list-style: none;
+    display: flex; justify-content: space-between; gap: 16px; align-items: baseline;
+  }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; color: var(--teal); font-weight: 700; }
+  .faq details[open] summary::after { content: "–"; }
+  .faq p { margin: 12px 0 0; color: var(--muted); }
+
+  .closing { background: var(--ink-soft); color: var(--paper); text-align: center; }
+  .closing p { color: #b7c2ca; max-width: 50ch; margin-inline: auto; }
+
+  footer {
+    background: var(--ink); color: #8d9aa3; padding-block: 30px; font-size: .9rem;
+  }
+  footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  footer a { color: #b7c2ca; }
+
+  @media (max-width: 860px) {
+    header .wrap { grid-template-columns: 1fr; }
+    .steps, .shots, .features { grid-template-columns: 1fr; }
+    .templates { grid-template-columns: repeat(2, 1fr); }
+    section { padding-block: 48px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div>
+      <div class="brand">
+        <img src="img/icon.png" alt="AR Draw Anime app icon" width="50" height="50">
+        <span>AR Draw Anime: Trace Sketch</span>
+      </div>
+      <h1>Trace drawings onto real paper with your phone</h1>
+      <p>Point your camera at a sheet of paper. The app holds any photo or template
+         on the page while you draw it by hand, with a real pencil.</p>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=com.artracing.studio">Get it free on Google Play</a>
+      <span class="cta-note">Free · Android 7.0 and up · no account needed</span>
+    </div>
+    <img class="hero-shot" src="img/trace-on-paper.jpg" width="540" height="960"
+         alt="A phone held above a notebook, showing a drawing pinned to the page while a hand traces it">
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>How to trace a picture onto paper with your phone</h2>
+    <p class="lede">No printer, no tracing paper, no light box. Three steps.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="n">1</div>
+        <h3>Put paper down</h3>
+        <p>Any sheet, on a flat surface in decent light. Hold your phone above it or rest
+           it on a stand.</p>
+      </div>
+      <div class="step">
+        <div class="n">2</div>
+        <h3>Place a picture on it</h3>
+        <p>Choose one of the built-in drawings or import a photo from your gallery. Tap the
+           paper and the picture lands there.</p>
+      </div>
+      <div class="step">
+        <div class="n">3</div>
+        <h3>Draw what you see</h3>
+        <p>Look at your phone and follow the lines with a pencil. The picture stays on the
+           page while your hand moves.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>It stays where you put it</h2>
+    <p class="lede">Most tracing apps stick the picture to your screen, so it slides out
+       of position the moment your hand moves. On phones with ARCore, this one pins the
+       picture to the paper itself. Lift the phone, put it down, come back an hour later —
+       the drawing is still in the same place at the same size.</p>
+    <p class="lede">On phones without ARCore it falls back to a screen overlay with a lock
+       button, so it works everywhere.</p>
+    <div class="shots">
+      <figure>
+        <img src="img/use-any-photo.jpg" width="540" height="960"
+             alt="Choosing a photo from the phone gallery to turn into a drawing">
+        <figcaption>Any photo from your gallery becomes line art.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/draw-any-portrait.jpg" width="540" height="960"
+             alt="A portrait photo traced as a pencil drawing on a sketchbook">
+        <figcaption>Portraits, pets, cars, anything.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/trace-on-paper.jpg" width="540" height="960"
+             alt="A hand tracing an anime drawing on paper under a phone">
+        <figcaption>Your hand and the paper, not a tablet.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Learn to draw anime without any talent</h2>
+    <p class="lede">Sixteen line drawings are included free: a close-up eye, a pair of
+       eyes, girl and boy faces, a chibi, a magical girl, a samurai, a cat girl, a school
+       girl, a ninja, an angel, a winged dragon, a cat, a sheet of six hands, six hair
+       styles and a full-body proportion guide.</p>
+    <div class="templates">
+      <img src="img/template-eye.png" width="360" height="360" alt="Anime eye line drawing template">
+      <img src="img/template-girl.png" width="360" height="360" alt="Anime girl face line drawing template">
+      <img src="img/template-chibi.png" width="360" height="360" alt="Chibi character line drawing template">
+      <img src="img/template-dragon.png" width="360" height="360" alt="Winged dragon line drawing template">
+    </div>
+    <p style="margin-top:26px">Start with the eye until the lash line feels natural, then
+       move to the face, then the proportion guide. That order teaches you more than
+       copying a finished picture does.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Tools that help you draw</h2>
+    <div class="features">
+      <div>
+        <h3>Cut out the background</h3>
+        <p>One tap isolates the subject of your photo and drops the background away, so you
+           trace the thing you care about and nothing else.</p>
+      </div>
+      <div>
+        <h3>Edges mode</h3>
+        <p>Turns a photo into clean contour lines on a transparent background, so you can
+           see your paper through it instead of a flat block of colour.</p>
+      </div>
+      <div>
+        <h3>Sketch and grayscale</h3>
+        <p>A soft pencil rendering, or colour removed entirely so you can read values
+           rather than hues.</p>
+      </div>
+      <div>
+        <h3>Opacity slider</h3>
+        <p>Fade the picture from a faint guide to a solid reference, so your own pencil
+           marks stay visible underneath.</p>
+      </div>
+      <div>
+        <h3>Lock, grid and mirror</h3>
+        <p>Freeze the placement so a stray finger cannot nudge it, overlay rule-of-thirds
+           guides, or flip the reference horizontally.</p>
+      </div>
+      <div>
+        <h3>Torch, and the screen stays awake</h3>
+        <p>Light your paper when your own hand shadows it, and the display never sleeps
+           halfway through a drawing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap faq">
+    <h2>Questions</h2>
+
+    <details open>
+      <summary>Is tracing cheating?</summary>
+      <p>Artists have argued about this for centuries, and the honest answer is that it
+         depends what you want. Tracing will not teach you to invent a pose from
+         imagination. It will teach you line control, proportion and confidence, and it
+         gets a finished drawing onto the page on a day when you would otherwise have
+         drawn nothing. Most people who draw well started by copying something.</p>
+    </details>
+
+    <details>
+      <summary>Do I need a special phone?</summary>
+      <p>No. Android 7.0 or newer. Phones that support Google's ARCore get the version
+         that pins the picture to the paper; every other phone gets a screen overlay with
+         a lock button instead. Both work.</p>
+    </details>
+
+    <details>
+      <summary>Does it work without the internet?</summary>
+      <p>Yes, apart from the one-off download of the background-removal model. Everything
+         else runs on the phone.</p>
+    </details>
+
+    <details>
+      <summary>Are my photos uploaded anywhere?</summary>
+      <p>No. Photos you import are copied into the app's own storage on your phone and
+         stay there. The camera feed is never recorded. There is no account and no
+         sign-up.</p>
+    </details>
+
+    <details>
+      <summary>Is it really free?</summary>
+      <p>Yes. All sixteen templates are included, there is no subscription and there is
+         nothing to buy.</p>
+    </details>
+
+    <details>
+      <summary>Can children use it?</summary>
+      <p>Yes — it is rated for ages 3 and up. It is a good way to get a child drawing on
+         paper rather than on a screen, since the result is a real drawing they can keep.</p>
+    </details>
+
+    <details>
+      <summary>What can I trace?</summary>
+      <p>Anything you have a picture of: pets, family photos, cars, flowers, anime
+         characters, logos, a photo you took five minutes ago. Please respect copyright if
+         you intend to publish or sell what you draw.</p>
+    </details>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="wrap">
+    <h2>Put a drawing on paper today</h2>
+    <p>Install it, point it at a sheet of paper, and finish something.</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.artracing.studio">Get it free on Google Play</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>AR Draw Anime: Trace Sketch — by blayza</span>
+    <span><a href="privacy-policy.html">Privacy policy</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
