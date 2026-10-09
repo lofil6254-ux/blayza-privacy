@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "anime_angel",
+      "title": "Angel",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_angel.webp"
+    },
+    {
+      "id": "anime_boy_face",
+      "title": "Boy face",
+      "category": "Anime",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_boy_face.webp"
+    },
+    {
+      "id": "anime_cat_girl",
+      "title": "Cat girl",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_cat_girl.webp"
+    },
+    {
+      "id": "anime_chibi",
+      "title": "Chibi",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_chibi.webp"
+    },
+    {
+      "id": "anime_eye",
+      "title": "Eye",
+      "category": "Anime",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_eye.webp"
+    },
+    {
+      "id": "anime_eyes",
+      "title": "Eyes",
+      "category": "Anime",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_eyes.webp"
+    },
+    {
+      "id": "anime_girl_face",
+      "title": "Girl face",
+      "category": "Anime",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_girl_face.webp"
+    },
+    {
+      "id": "anime_hooded_ninja",
+      "title": "Hooded ninja",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_hooded_ninja.webp"
+    },
+    {
+      "id": "anime_idol_singer",
+      "title": "Idol singer",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_idol_singer.webp"
+    },
+    {
+      "id": "anime_mage_girl",
+      "title": "Mage girl",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_mage_girl.webp"
+    },
+    {
+      "id": "anime_magical_girl",
+      "title": "Magical girl",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_magical_girl.webp"
+    },
+    {
+      "id": "anime_ninja",
+      "title": "Ninja",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_ninja.webp"
+    },
+    {
+      "id": "anime_samurai",
+      "title": "Samurai",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_samurai.webp"
+    },
+    {
+      "id": "anime_school_boy",
+      "title": "School boy",
+      "category": "Anime",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_school_boy.webp"
+    },
+    {
+      "id": "anime_school_girl",
+      "title": "School girl",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_school_girl.webp"
+    },
+    {
+      "id": "anime_spiky_hero",
+      "title": "Spiky hero",
+      "category": "Anime",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_spiky_hero.webp"
+    },
+    {
+      "id": "anime_sword_girl",
+      "title": "Sword girl",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_sword_girl.webp"
+    },
+    {
+      "id": "creatures_cat",
+      "title": "Cat",
+      "category": "Creatures",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_cat.webp"
+    },
+    {
+      "id": "creatures_dragon",
+      "title": "Dragon",
+      "category": "Creatures",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_dragon.webp"
+    },
+    {
+      "id": "practice_hair_styles",
+      "title": "Hair styles",
+      "category": "Practice",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_hair_styles.webp"
+    },
+    {
+      "id": "practice_hands",
+      "title": "Hands",
+      "category": "Practice",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_hands.webp"
+    },
+    {
+      "id": "practice_proportions",
+      "title": "Proportions",
+      "category": "Practice",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_proportions.webp"
+    }
+  ]
+}
