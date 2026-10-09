@@ -9,11 +9,25 @@
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_angel.webp"
     },
     {
+      "id": "anime_battle_girl",
+      "title": "Battle girl",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_battle_girl.webp"
+    },
+    {
       "id": "anime_boy_face",
       "title": "Boy face",
       "category": "Anime",
       "pro": false,
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_boy_face.webp"
+    },
+    {
+      "id": "anime_cat_boy",
+      "title": "Cat boy",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_cat_boy.webp"
     },
     {
       "id": "anime_cat_girl",
@@ -86,6 +100,20 @@
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_ninja.webp"
     },
     {
+      "id": "anime_prince",
+      "title": "Prince",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_prince.webp"
+    },
+    {
+      "id": "anime_rooftop_boy",
+      "title": "Rooftop boy",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_rooftop_boy.webp"
+    },
+    {
       "id": "anime_samurai",
       "title": "Samurai",
       "category": "Anime",
@@ -119,6 +147,13 @@
       "category": "Anime",
       "pro": true,
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_sword_girl.webp"
+    },
+    {
+      "id": "anime_twin_tails_girl",
+      "title": "Twin tails girl",
+      "category": "Anime",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_twin_tails_girl.webp"
     },
     {
       "id": "creatures_cat",
