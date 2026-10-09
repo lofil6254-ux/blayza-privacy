@@ -58,6 +58,13 @@
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_eyes.webp"
     },
     {
+      "id": "anime_flower_girl",
+      "title": "Flower girl",
+      "category": "Anime",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_flower_girl.webp"
+    },
+    {
       "id": "anime_girl_face",
       "title": "Girl face",
       "category": "Anime",
@@ -91,6 +98,13 @@
       "category": "Anime",
       "pro": true,
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_magical_girl.webp"
+    },
+    {
+      "id": "anime_mecha_pilot",
+      "title": "Mecha pilot",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_mecha_pilot.webp"
     },
     {
       "id": "anime_ninja",
@@ -135,11 +149,25 @@
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_school_girl.webp"
     },
     {
+      "id": "anime_shrine_maiden",
+      "title": "Shrine maiden",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_shrine_maiden.webp"
+    },
+    {
       "id": "anime_spiky_hero",
       "title": "Spiky hero",
       "category": "Anime",
       "pro": false,
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_spiky_hero.webp"
+    },
+    {
+      "id": "anime_street_dancer",
+      "title": "Street dancer",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_street_dancer.webp"
     },
     {
       "id": "anime_sword_girl",
@@ -156,6 +184,55 @@
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_twin_tails_girl.webp"
     },
     {
+      "id": "chibi_chibi_angel",
+      "title": "Chibi angel",
+      "category": "Chibi",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_angel.webp"
+    },
+    {
+      "id": "chibi_chibi_boy",
+      "title": "Chibi boy",
+      "category": "Chibi",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_boy.webp"
+    },
+    {
+      "id": "chibi_chibi_cat",
+      "title": "Chibi cat",
+      "category": "Chibi",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_cat.webp"
+    },
+    {
+      "id": "chibi_chibi_chef",
+      "title": "Chibi chef",
+      "category": "Chibi",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_chef.webp"
+    },
+    {
+      "id": "chibi_chibi_girl",
+      "title": "Chibi girl",
+      "category": "Chibi",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_girl.webp"
+    },
+    {
+      "id": "chibi_chibi_sleepy",
+      "title": "Chibi sleepy",
+      "category": "Chibi",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_sleepy.webp"
+    },
+    {
+      "id": "creatures_bird",
+      "title": "Bird",
+      "category": "Creatures",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_bird.webp"
+    },
+    {
       "id": "creatures_cat",
       "title": "Cat",
       "category": "Creatures",
@@ -170,6 +247,62 @@
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_dragon.webp"
     },
     {
+      "id": "creatures_dragon_head",
+      "title": "Dragon head",
+      "category": "Creatures",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_dragon_head.webp"
+    },
+    {
+      "id": "creatures_fox",
+      "title": "Fox",
+      "category": "Creatures",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_fox.webp"
+    },
+    {
+      "id": "creatures_wolf",
+      "title": "Wolf",
+      "category": "Creatures",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_wolf.webp"
+    },
+    {
+      "id": "faces_angry_face",
+      "title": "Angry face",
+      "category": "Faces",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/faces_angry_face.webp"
+    },
+    {
+      "id": "faces_crying_face",
+      "title": "Crying face",
+      "category": "Faces",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/faces_crying_face.webp"
+    },
+    {
+      "id": "faces_side_profile",
+      "title": "Side profile",
+      "category": "Faces",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/faces_side_profile.webp"
+    },
+    {
+      "id": "faces_smiling_face",
+      "title": "Smiling face",
+      "category": "Faces",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/faces_smiling_face.webp"
+    },
+    {
+      "id": "practice_expressions",
+      "title": "Expressions",
+      "category": "Practice",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_expressions.webp"
+    },
+    {
       "id": "practice_hair_styles",
       "title": "Hair styles",
       "category": "Practice",
@@ -182,6 +315,13 @@
       "category": "Practice",
       "pro": false,
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_hands.webp"
+    },
+    {
+      "id": "practice_poses",
+      "title": "Poses",
+      "category": "Practice",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_poses.webp"
     },
     {
       "id": "practice_proportions",
