@@ -2,333 +2,214 @@
   "version": 1,
   "templates": [
     {
-      "id": "anime_angel",
-      "title": "Angel",
+      "id": "anime_bandage_fighter",
+      "title": "Bandage fighter",
       "category": "Anime",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_angel.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_bandage_fighter.webp"
     },
     {
-      "id": "anime_battle_girl",
-      "title": "Battle girl",
+      "id": "anime_cyber_eye",
+      "title": "Cyber eye",
       "category": "Anime",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_battle_girl.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_cyber_eye.webp"
     },
     {
-      "id": "anime_boy_face",
-      "title": "Boy face",
+      "id": "anime_demon_eyes",
+      "title": "Demon eyes",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_demon_eyes.webp"
+    },
+    {
+      "id": "anime_fire_glare",
+      "title": "Fire glare",
       "category": "Anime",
       "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_boy_face.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_fire_glare.webp"
     },
     {
-      "id": "anime_cat_boy",
-      "title": "Cat boy",
+      "id": "anime_hood_assassin",
+      "title": "Hood assassin",
       "category": "Anime",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_cat_boy.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_hood_assassin.webp"
     },
     {
-      "id": "anime_cat_girl",
-      "title": "Cat girl",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_cat_girl.webp"
-    },
-    {
-      "id": "anime_chibi",
-      "title": "Chibi",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_chibi.webp"
-    },
-    {
-      "id": "anime_eye",
-      "title": "Eye",
+      "id": "anime_lightning_eyes",
+      "title": "Lightning eyes",
       "category": "Anime",
       "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_eye.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_lightning_eyes.webp"
     },
     {
-      "id": "anime_eyes",
-      "title": "Eyes",
+      "id": "anime_masked_rival",
+      "title": "Masked rival",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_masked_rival.webp"
+    },
+    {
+      "id": "anime_rain_swordsman",
+      "title": "Rain swordsman",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_rain_swordsman.webp"
+    },
+    {
+      "id": "anime_scar_hero",
+      "title": "Scar hero",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_scar_hero.webp"
+    },
+    {
+      "id": "anime_shadow_half",
+      "title": "Shadow half",
+      "category": "Anime",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_shadow_half.webp"
+    },
+    {
+      "id": "anime_silent_ninja",
+      "title": "Silent ninja",
       "category": "Anime",
       "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_eyes.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_silent_ninja.webp"
     },
     {
-      "id": "anime_flower_girl",
-      "title": "Flower girl",
+      "id": "anime_storm_girl",
+      "title": "Storm girl",
       "category": "Anime",
       "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_flower_girl.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_storm_girl.webp"
     },
     {
-      "id": "anime_girl_face",
-      "title": "Girl face",
-      "category": "Anime",
-      "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_girl_face.webp"
-    },
-    {
-      "id": "anime_hooded_ninja",
-      "title": "Hooded ninja",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_hooded_ninja.webp"
-    },
-    {
-      "id": "anime_idol_singer",
-      "title": "Idol singer",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_idol_singer.webp"
-    },
-    {
-      "id": "anime_mage_girl",
-      "title": "Mage girl",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_mage_girl.webp"
-    },
-    {
-      "id": "anime_magical_girl",
-      "title": "Magical girl",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_magical_girl.webp"
-    },
-    {
-      "id": "anime_mecha_pilot",
-      "title": "Mecha pilot",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_mecha_pilot.webp"
-    },
-    {
-      "id": "anime_ninja",
-      "title": "Ninja",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_ninja.webp"
-    },
-    {
-      "id": "anime_prince",
-      "title": "Prince",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_prince.webp"
-    },
-    {
-      "id": "anime_rooftop_boy",
-      "title": "Rooftop boy",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_rooftop_boy.webp"
-    },
-    {
-      "id": "anime_samurai",
-      "title": "Samurai",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_samurai.webp"
-    },
-    {
-      "id": "anime_school_boy",
-      "title": "School boy",
-      "category": "Anime",
-      "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_school_boy.webp"
-    },
-    {
-      "id": "anime_school_girl",
-      "title": "School girl",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_school_girl.webp"
-    },
-    {
-      "id": "anime_shrine_maiden",
-      "title": "Shrine maiden",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_shrine_maiden.webp"
-    },
-    {
-      "id": "anime_spiky_hero",
-      "title": "Spiky hero",
-      "category": "Anime",
-      "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_spiky_hero.webp"
-    },
-    {
-      "id": "anime_street_dancer",
-      "title": "Street dancer",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_street_dancer.webp"
-    },
-    {
-      "id": "anime_sword_girl",
-      "title": "Sword girl",
-      "category": "Anime",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_sword_girl.webp"
-    },
-    {
-      "id": "anime_twin_tails_girl",
-      "title": "Twin tails girl",
-      "category": "Anime",
-      "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/anime_twin_tails_girl.webp"
-    },
-    {
-      "id": "chibi_chibi_angel",
-      "title": "Chibi angel",
-      "category": "Chibi",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_angel.webp"
-    },
-    {
-      "id": "chibi_chibi_boy",
-      "title": "Chibi boy",
-      "category": "Chibi",
-      "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_boy.webp"
-    },
-    {
-      "id": "chibi_chibi_cat",
-      "title": "Chibi cat",
-      "category": "Chibi",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_cat.webp"
-    },
-    {
-      "id": "chibi_chibi_chef",
-      "title": "Chibi chef",
-      "category": "Chibi",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_chef.webp"
-    },
-    {
-      "id": "chibi_chibi_girl",
-      "title": "Chibi girl",
-      "category": "Chibi",
-      "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_girl.webp"
-    },
-    {
-      "id": "chibi_chibi_sleepy",
-      "title": "Chibi sleepy",
-      "category": "Chibi",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/chibi_chibi_sleepy.webp"
-    },
-    {
-      "id": "creatures_bird",
-      "title": "Bird",
+      "id": "creatures_black_panther",
+      "title": "Black panther",
       "category": "Creatures",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_bird.webp"
-    },
-    {
-      "id": "creatures_cat",
-      "title": "Cat",
-      "category": "Creatures",
-      "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_cat.webp"
-    },
-    {
-      "id": "creatures_dragon",
-      "title": "Dragon",
-      "category": "Creatures",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_dragon.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_black_panther.webp"
     },
     {
       "id": "creatures_dragon_head",
       "title": "Dragon head",
       "category": "Creatures",
-      "pro": true,
+      "pro": false,
       "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_dragon_head.webp"
     },
     {
-      "id": "creatures_fox",
-      "title": "Fox",
+      "id": "creatures_phoenix",
+      "title": "Phoenix",
+      "category": "Creatures",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_phoenix.webp"
+    },
+    {
+      "id": "creatures_spirit_fox",
+      "title": "Spirit fox",
       "category": "Creatures",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_fox.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_spirit_fox.webp"
     },
     {
-      "id": "creatures_wolf",
-      "title": "Wolf",
-      "category": "Creatures",
+      "id": "dark_dark_angel",
+      "title": "Dark angel",
+      "category": "Dark",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/creatures_wolf.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/dark_dark_angel.webp"
     },
     {
-      "id": "faces_angry_face",
-      "title": "Angry face",
-      "category": "Faces",
+      "id": "dark_grim_hunter",
+      "title": "Grim hunter",
+      "category": "Dark",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/faces_angry_face.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/dark_grim_hunter.webp"
     },
     {
-      "id": "faces_crying_face",
-      "title": "Crying face",
-      "category": "Faces",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/faces_crying_face.webp"
-    },
-    {
-      "id": "faces_side_profile",
-      "title": "Side profile",
-      "category": "Faces",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/faces_side_profile.webp"
-    },
-    {
-      "id": "faces_smiling_face",
-      "title": "Smiling face",
-      "category": "Faces",
+      "id": "dark_masked_demon",
+      "title": "Masked demon",
+      "category": "Dark",
       "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/faces_smiling_face.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/dark_masked_demon.webp"
     },
     {
-      "id": "practice_expressions",
-      "title": "Expressions",
-      "category": "Practice",
+      "id": "dark_moon_wolf_warrior",
+      "title": "Moon wolf warrior",
+      "category": "Dark",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_expressions.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/dark_moon_wolf_warrior.webp"
     },
     {
-      "id": "practice_hair_styles",
-      "title": "Hair styles",
-      "category": "Practice",
-      "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_hair_styles.webp"
-    },
-    {
-      "id": "practice_hands",
-      "title": "Hands",
-      "category": "Practice",
+      "id": "dark_shadow_king",
+      "title": "Shadow king",
+      "category": "Dark",
       "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_hands.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/dark_shadow_king.webp"
     },
     {
-      "id": "practice_poses",
-      "title": "Poses",
-      "category": "Practice",
+      "id": "dark_skull_knight",
+      "title": "Skull knight",
+      "category": "Dark",
       "pro": true,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_poses.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/dark_skull_knight.webp"
     },
     {
-      "id": "practice_proportions",
-      "title": "Proportions",
-      "category": "Practice",
+      "id": "fighters_back_to_back",
+      "title": "Back to back",
+      "category": "Fighters",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/fighters_back_to_back.webp"
+    },
+    {
+      "id": "fighters_boxer_guard",
+      "title": "Boxer guard",
+      "category": "Fighters",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/fighters_boxer_guard.webp"
+    },
+    {
+      "id": "fighters_chain_fighter",
+      "title": "Chain fighter",
+      "category": "Fighters",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/fighters_chain_fighter.webp"
+    },
+    {
+      "id": "fighters_energy_charge",
+      "title": "Energy charge",
+      "category": "Fighters",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/fighters_energy_charge.webp"
+    },
+    {
+      "id": "fighters_flying_kick",
+      "title": "Flying kick",
+      "category": "Fighters",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/fighters_flying_kick.webp"
+    },
+    {
+      "id": "fighters_muscle_stance",
+      "title": "Muscle stance",
+      "category": "Fighters",
+      "pro": true,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/fighters_muscle_stance.webp"
+    },
+    {
+      "id": "fighters_power_punch",
+      "title": "Power punch",
+      "category": "Fighters",
       "pro": false,
-      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/practice_proportions.webp"
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/fighters_power_punch.webp"
+    },
+    {
+      "id": "fighters_sword_draw",
+      "title": "Sword draw",
+      "category": "Fighters",
+      "pro": false,
+      "url": "https://lofil6254-ux.github.io/blayza-privacy/templates/fighters_sword_draw.webp"
     }
   ]
 }
